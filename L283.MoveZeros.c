@@ -1,4 +1,4 @@
-283. Move Zeroes
+/*283. Move Zeroes
 Solved
 Easy
 Topics
@@ -26,7 +26,7 @@ Constraints:
 1 <= nums.length <= 104
 -231 <= nums[i] <= 231 - 1
 
-
+*/
 void moveZeroes(int* nums, int numsSize) {
     int i,pos=0;
     for(i=0;i<numsSize;i++){
